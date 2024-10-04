@@ -24,7 +24,7 @@ h2, h3, h4, p {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color:#020217
+    background-color:#020217;
     border-bottom: 1px solid #444;
 }
 
@@ -183,7 +183,6 @@ h2, h3, h4, p {
     transition: background-color 0.3s ease;
 }
 
-1e
 .contact-section input[type="submit"]:hover {
     background-color: #888;
 }
