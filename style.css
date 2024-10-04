@@ -24,7 +24,7 @@ h2, h3, h4, p {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color:
+    background-color:#020217
     border-bottom: 1px solid #444;
 }
 
@@ -52,17 +52,17 @@ h2, h3, h4, p {
 }
 
 .nav-header a:hover {
-    background-color: #444;
+    background-color: #191919;
     border-radius: 5px;
 }
 
 /* About Section */
 .about-me {
-    display: flex; /* Ensure the image and text are aligned side by side */
+    display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding: 60px;
-    border-bottom: 1px solid #444;
+    border-bottom: 2px solid #444;
     background-color: #111;
 }
 
@@ -99,7 +99,7 @@ h2, h3, h4, p {
     font-size: 28px;
     text-align: center;
     margin-bottom: 30px;
-    border-bottom: 2px solid #444;
+    border-bottom: 3px solid #444;
     padding-bottom: 10px;
 }
 
@@ -135,14 +135,15 @@ h2, h3, h4, p {
 .certifications-section li {
     margin-bottom: 10px;
     font-size: 18px;
-    color: #aaa;
+    color: #b5b5b5;
 }
 
 /* Contact Form */
 .contact-section form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #222;
+    background-color: #1c1b1b;
+    background-image: linear-gradient(#161616,#020217);
     padding: 20px;
     border-radius: 10px;
 }
@@ -157,15 +158,14 @@ h2, h3, h4, p {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #555;
+    border: 1px solid #221f61;
     border-radius: 5px;
     background-color: #111;
-    color: #fff;
+    color: #ffffff;
 }
 
 .contact-section input[type="submit"] {
     background-color: #444;
-    border: none;
     cursor: pointer;
     font-size: 18px;
     transition: background-color 0.3s ease;
@@ -180,7 +180,7 @@ footer {
     padding: 20px;
     background-color: #111;
     text-align: center;
-    border-top: 1px solid #444;
+    border-top: 01px solid #444;
 }
 
 footer a {
@@ -190,6 +190,13 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.socials {
+    width:24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 /* Media Queries for Responsive Design */
