@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
     scroll-behavior: smooth;
 }
-
+/*Heading and Para Spacing*/
 h2, h3, h4, p {
     margin-bottom: 15px;
 }
@@ -28,21 +28,25 @@ h2, h3, h4, p {
     border-bottom: 1px solid #444;
 }
 
+/*Styling the logo*/
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
 }
 
+/*Nav styles*/
 .nav-header {
     list-style-type: none;
     display: flex;
 }
 
+/*Nav Item Styling*/
 .nav-header nav {
     margin-right: 20px;
 }
 
+/*Styling the links*/
 .nav-header a {
     color: #fff;
     text-decoration: none;
@@ -51,6 +55,7 @@ h2, h3, h4, p {
     transition: background-color 0.3s ease;
 }
 
+/*Hover effect for nav links*/
 .nav-header a:hover {
     background-color: #191919;
     border-radius: 5px;
@@ -66,12 +71,14 @@ h2, h3, h4, p {
     background-color: #111;
 }
 
+/*Styling the content*/
 .about-content {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
+/*Styling the profile picture/image */
 .pfp {
     border-radius: 50%;
     height: auto;
@@ -79,14 +86,17 @@ h2, h3, h4, p {
     margin-right: 40px;
 }
 
+/*Styles the text near profile picture*/
 .about-text {
     max-width: 600px;
 }
 
+/*Adding space for the video*/
 .videotitle {
     margin-top: 20px;
 }
 
+/*Styling the video itself*/
 .introvideo {
     width: 100%;
     max-width: 600px;
@@ -116,11 +126,13 @@ h2, h3, h4, p {
     border-radius: 5px;
 }
 
+/*Styles the header for  the awards and projects*/
 .award h4, .project-item h4 {
     font-size: 22px;
     color: #f5f5f5;
 }
 
+/*Styling description inside the awards and projects items*/
 .award p, .project-item p {
     color: #aaa;
     font-size: 16px;
@@ -171,6 +183,7 @@ h2, h3, h4, p {
     transition: background-color 0.3s ease;
 }
 
+1e
 .contact-section input[type="submit"]:hover {
     background-color: #888;
 }
@@ -199,6 +212,7 @@ footer a:hover {
     margin-left: 10px;
 }
 
+/*USED CHAT GPT FOR THIS PART*/
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .about-content {
