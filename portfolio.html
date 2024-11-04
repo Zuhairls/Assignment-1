@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuhair's Professional Portfolio</title>
+</head>
+
+<body>
+    <!-- Header part of the website -->
+    <header id="header" class="main-header">
+        <h2 class="logo">Zuhair Mohammed</h2>
+        <nav>
+            <ul class="nav-header">
+                <li><a href="#About" class="navLink">Home</a></li>
+                <li><a href="#Awards-and-Honours" class="navLink">Awards and Honours</a></li>
+                <li><a href="#Projects" class="navLink">Projects</a></li>
+                <li><a href="#Certifications" class="navLink">Certifications</a></li>
+                <li><a href="#contact" class="navLink">Contact me</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <!-- About Me section (Home) -->
+    <section id="About" class="about-me">
+        <div class="about-content">
+            <img src="videos/images/Pfp.jpg" alt="My Photo" class="pfp">
+            <div class="about-text">
+                <h3 style="text-align :justify">I am Zuhair uddin Mohammed, a student at Ontario Tech University in the Networking and IT Security program. I am a highly positive and compassionate individual dedicated to delivering my utmost effort to excel in every endeavour.</h3>
+                <h5 class="videotitle">My Introduction Video</h5>
+                <video controls class="introvideo" poster="videos/images/Introducing_me.webp">
+                    <source src="videos/images/IntroVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards and Honours Section -->
+    <section id="Awards-and-Honours" class="awards-section">
+        <h2 class="section-title">Awards and Honours</h2>
+        <div class="award">
+            <h4>Dean's Honours List</h4>
+            <p>Issued by the Dean of FBIT, UOIT - February 2024<br>Achieved a GPA of 3.6 or higher with 80 percent of a full course load.</p>
+        </div>
+        <div class="award">
+            <h4>President's Honours List</h4>
+            <p>Issued by the President of UOIT - June 2024<br>Achieved a GPA of 3.8 or higher with 80 percent of a full course load.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-item">
+            <h4>Networking LAN Design Project</h4>
+            <p>Designed a Local Area Network project with Static Routing, IPv4 Addressing Scheme, and VLSM.</p>
+        </div>
+        <div class="project-item">
+            <h4>Wide Area Network</h4>
+            <p>Designed a Wide Area Network using Inter-VLAN Routing, BGP, and OSPF Protocols.</p>
+        </div>
+        <div class="project-item">
+            <h4>Two-Player Word Scramble Game</h4>
+            <p>A word-scrambling game for two players involving predefined words, scrambled letters, and guessing turns.</p>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="Certifications" class="certifications-section">
+        <h2 class="section-title">Certifications</h2>
+        <ul>
+            <li>Advanced Manufacturing</li>
+            <li>Generative AI Fundamentals</li>
+            <li>CCNA: Introduction to Networks</li>
+            <li>Introduction to Programming</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contactForm" method="post">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone :</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"><br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea><br><br>
+            <input type="submit" value="SUBMIT" id="submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2024 Zuhair Mohammed<br>Email: <a href="mailto:zuhairuddin.mohammed@ontariotechu.net">zuhairuddin.mohammed@ontariotechu.net</a></p>
+        <p>Connect with me on: 
+            <a href="https://www.linkedin.com/in/zuhair-uddin-mohammed-5a5b00281/" target="_blank">
+                <img src="videos/images/LinkedIn.png" alt="My Linkedin Profile" class="socials">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
